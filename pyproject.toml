@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buildplate-pose"
+version = "0.1.0"
+description = "Estimate camera pose from a registered 3D-printer build plate image"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python-headless>=4.8",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.scripts]
+buildplate-pose = "buildplate_pose.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
