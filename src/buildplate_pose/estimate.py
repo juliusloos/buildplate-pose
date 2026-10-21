@@ -120,5 +120,6 @@ def estimate_pose(reference_image, capture_image, reference_points_image,
     return {
         "status": "accepted",
         "T_camera_from_bed": transform.tolist(),
+        "camera_position_bed_m": camera_center.tolist(),
         "quality": quality,
     }

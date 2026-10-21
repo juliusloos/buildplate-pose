@@ -1,0 +1,30 @@
+{
+  "device": {
+    "model": "Intel RealSense D405",
+    "serial": "218622270249",
+    "asic_firmware_id": "323743071407",
+    "firmware": "5.12.14.100",
+    "usb_product_id": "0B5B"
+  },
+  "capture_stream": {
+    "type": "color",
+    "format": "YUYV",
+    "image_size": [1280, 720],
+    "frame_rate_fps": 30
+  },
+  "intrinsics_frame": "native_unrotated",
+  "saved_frame_rotation_degrees": 180,
+  "camera_matrix": [
+    [650.9052734375, 0, 646.8974609375],
+    [0, 650.032958984375, 363.260009765625],
+    [0, 0, 1]
+  ],
+  "distortion_model": "inverse_brown_conrady",
+  "distortion": [
+    -0.0543382428586483,
+    0.0629889518022537,
+    0.0000392620349884965,
+    0.000666297506541014,
+    -0.0211622957140207
+  ]
+}

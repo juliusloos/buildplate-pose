@@ -1,0 +1,86 @@
+{
+  "first_z_mm": 0.2,
+  "last_z_mm": 1.4,
+  "layer_count": 7,
+  "layers": [
+    {
+      "boundary_byte_offset": 107113,
+      "boundary_line_no": 1430,
+      "layer_height_mm": 0.2,
+      "layer_index": 0,
+      "z_height_mm": 0.2
+    },
+    {
+      "boundary_byte_offset": 120757,
+      "boundary_line_no": 2058,
+      "layer_height_mm": 0.2,
+      "layer_index": 1,
+      "z_height_mm": 0.4
+    },
+    {
+      "boundary_byte_offset": 141497,
+      "boundary_line_no": 2957,
+      "layer_height_mm": 0.2,
+      "layer_index": 2,
+      "z_height_mm": 0.6
+    },
+    {
+      "boundary_byte_offset": 162168,
+      "boundary_line_no": 3850,
+      "layer_height_mm": 0.2,
+      "layer_index": 3,
+      "z_height_mm": 0.8
+    },
+    {
+      "boundary_byte_offset": 182312,
+      "boundary_line_no": 4718,
+      "layer_height_mm": 0.2,
+      "layer_index": 4,
+      "z_height_mm": 1.0
+    },
+    {
+      "boundary_byte_offset": 202403,
+      "boundary_line_no": 5585,
+      "layer_height_mm": 0.2,
+      "layer_index": 5,
+      "z_height_mm": 1.2
+    },
+    {
+      "boundary_byte_offset": 222556,
+      "boundary_line_no": 6454,
+      "layer_height_mm": 0.2,
+      "layer_index": 6,
+      "z_height_mm": 1.4
+    }
+  ],
+  "parser_version": "prusaslicer-text-v1",
+  "settings": {
+    "bed_temperature": "60",
+    "binary_gcode": "0",
+    "complete_objects": "0",
+    "filament_colour": "#FF8000",
+    "filament_density": "1.24",
+    "filament_diameter": "1.75",
+    "filament_settings_id": "\"Prusa PLA @PGIS\"",
+    "filament_type": "PLA",
+    "fill_density": "15%",
+    "first_layer_bed_temperature": "60",
+    "first_layer_height": "0.2",
+    "first_layer_temperature": "230",
+    "gcode_flavor": "marlin2",
+    "ironing": "0",
+    "layer_height": "0.2",
+    "nozzle_diameter": "0.4",
+    "print_settings_id": "0.20mm SPEED @MK4IS 0.4",
+    "printer_model": "MK4IS",
+    "printer_settings_id": "Original Prusa MK4 Input Shaper 0.4 nozzle",
+    "spiral_vase": "0",
+    "support_material": "1",
+    "temperature": "220"
+  },
+  "sha256": "512c011e1cc35bfb87520a498f0694d06210c26e54d9b14b1c5909a46325dffd",
+  "size_bytes": 260196,
+  "slicer_name": "PrusaSlicer",
+  "slicer_version": "2.9.6",
+  "warnings": []
+}

@@ -8,3 +8,8 @@ dist/
 *.tmp
 examples/output/
 data/
+
+# Unreviewed real printer captures; curate approved examples separately.
+/timed-capture/
+/realsense-run-01/
+/prusamk3smoothpei.webp

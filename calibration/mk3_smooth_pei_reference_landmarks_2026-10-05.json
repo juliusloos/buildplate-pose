@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "reference_image": "prusamk3smoothpei.webp",
+  "reference_image_sha256": "b4ade08ec01ff2c64ebcc08c1a90be68c4c5c84fc58bb324119386d7b579cbea",
+  "image_size_px": [1080, 1080],
+  "pixel_axes": "u right, v down, origin at upper left",
+  "sheet_outer_size_mm": [254, 240],
+  "sheet_outer_virtual_corners_image_px": {
+    "lower_left": [12, 1044],
+    "lower_right": [1067, 1044],
+    "upper_right": [1067, 36],
+    "upper_left": [12, 36]
+  },
+  "print_area_border_corners_image_px": {
+    "lower_left": [19, 975],
+    "lower_right": [1062, 975],
+    "upper_right": [1062, 91],
+    "upper_left": [19, 91]
+  },
+  "bed_origin_image_px": [19, 975],
+  "bed_axes": "X toward image right, Y toward image top",
+  "status": "provisional_visual_annotation",
+  "notes": [
+    "The bed origin is the lower-left intersection of the large printed rectangle, as specified by the user. It is not the purge-line start or the Print area label pointer.",
+    "Outer corners are virtual intersections of the sheet's side and extreme top/bottom bounds; the physical outline is rounded and notched.",
+    "Pixel coordinates are visual estimates from this product photo, not independently measured physical landmarks. The 254 x 240 mm outside size was user-reported."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "job_id": "aa41f41c-1a58-49da-aece-477e403e6520",
+  "printer_slug": "prusa-mk4-01",
+  "created_at": "2026-10-21T10:36:14.535255+00:00",
+  "gcode": {
+    "path": "/home/ai2sb/dt_prusamk4/var/metadata-collector/jobs/aa41f41c-1a58-49da-aece-477e403e6520/gcode/test_test.gcode",
+    "metadata_path": "/home/ai2sb/dt_prusamk4/var/metadata-collector/jobs/aa41f41c-1a58-49da-aece-477e403e6520/gcode/metadata.json",
+    "sha256": "512c011e1cc35bfb87520a498f0694d06210c26e54d9b14b1c5909a46325dffd",
+    "layer_count": 7
+  },
+  "future_layout": {
+    "real_images": "images/real/<camera-slug>/layer_00001.jpg",
+    "ideal_images": "images/ideal/layer_00001.png",
+    "labels": "labels/layer_00001.json"
+  }
+}

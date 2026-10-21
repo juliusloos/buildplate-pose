@@ -58,6 +58,9 @@ class PlatePoseEstimationTests(unittest.TestCase):
         estimated = np.array(result["T_camera_from_bed"])
         center = -estimated[:3, :3].T @ estimated[:3, 3]
         np.testing.assert_allclose(center, [0.125, 0.125, 0.5], atol=0.02)
+        self.assertIn("camera_position_bed_m", result)
+        np.testing.assert_allclose(result["camera_position_bed_m"],
+                                   [0.125, 0.125, 0.5], atol=0.02)
         self.assertLess(result["quality"]["reprojection_p95_px"], 5)
 
     def test_rejects_image_without_plate_features(self):
